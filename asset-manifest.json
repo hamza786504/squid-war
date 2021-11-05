@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/squid-war/static/css/main.59c899d2.chunk.css",
+    "main.js": "/squid-war/static/js/main.11bc1a25.chunk.js",
+    "main.js.map": "/squid-war/static/js/main.11bc1a25.chunk.js.map",
+    "runtime-main.js": "/squid-war/static/js/runtime-main.c50ad304.js",
+    "runtime-main.js.map": "/squid-war/static/js/runtime-main.c50ad304.js.map",
+    "static/js/2.b38391cd.chunk.js": "/squid-war/static/js/2.b38391cd.chunk.js",
+    "static/js/2.b38391cd.chunk.js.map": "/squid-war/static/js/2.b38391cd.chunk.js.map",
+    "index.html": "/squid-war/index.html",
+    "static/css/main.59c899d2.chunk.css.map": "/squid-war/static/css/main.59c899d2.chunk.css.map",
+    "static/js/2.b38391cd.chunk.js.LICENSE.txt": "/squid-war/static/js/2.b38391cd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c50ad304.js",
+    "static/js/2.b38391cd.chunk.js",
+    "static/css/main.59c899d2.chunk.css",
+    "static/js/main.11bc1a25.chunk.js"
+  ]
+}
