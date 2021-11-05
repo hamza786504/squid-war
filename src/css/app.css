@@ -1,0 +1,62 @@
+body{
+    background-color: #1b1a1f;
+}
+.butn{
+    display: inline-block;    
+    padding: 13px 40px;
+    color: white;
+    background-color: transparent;
+    border-radius: 50px;
+    position: relative;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.butn_transparent{
+    display: inline-block;    
+    padding: 13px 40px;
+    color: white;
+    background-color: transparent;
+    border-radius: 50px;
+    position: relative;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.butn_green{
+    background: linear-gradient(rgb(64, 201, 43), #1da74f);
+}
+.butn_pink{
+    background: linear-gradient(#fe98c9, #f42d8f);
+}
+.butn::before{
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    display: inline-block;
+    height: 70%;
+    border-radius: 50px;
+    border: 3px solid;
+    transform: rotateZ(45deg);
+    border-color: transparent transparent transparent white;
+    width: 40px;
+    content: "";
+}
+.butn::after{
+    position: absolute;
+    bottom: 7px;
+    right: 4px;
+    display: inline-block;
+    height: 70%;
+    border-radius: 50px;
+    border: 3px solid;
+    transform: rotateZ(45deg);
+    border-color: transparent white transparent transparent;
+    width: 40px;
+    content: "";
+}
+.btn:hover{
+    color: white;
+}

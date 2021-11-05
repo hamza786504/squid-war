@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    margin: 70px 0 0 50px;
+    height: 190px;
+}
+.svg_image img{
+    max-height: 390px;
+    height: 100%;
+}
+.currency_box{
+    background-color: #27262c;
+    display: inline-flex;
+    padding: 10px 15px 10px 25px;
+    border-radius: 50px;
+    border: 1px solid #313035;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 80px;
+}
+.currency_box img{
+    height: 40px;
+}
+.currency_box .coins{
+    text-align: end;
+    margin-right: 10px;
+}
+.currency_box .coins h5{
+    color: #f4d73e;
+    margin: 0;
+}
+.currency_box .coins h4{
+    color: #979799;
+    margin: 0;
+}
+.square{
+    border: 50px solid #df5598;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: -14%;
+    z-index: -1;
+    right: 40%;
+}
+.triangle{
+    content: "";
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    z-index: -1000;
+    height: 250px;
+}
+.form_section{
+    background-color: #26252a;
+    border: 1px solid #3b3a3f;
+    border-radius: 15px;
+    padding: 20px 15px;
+    width: 70%;
+    margin: 50px auto 0 auto;
+    z-index: 1000;
+}
+.form_section .input_field{
+    background-color: #313036;
+    border: 1px solid #4e4d52;
+    border-radius: 10px;
+    padding: 14px 20px;
+    color: #999999;
+    width: 100%;
+    margin: 8px 0;
+}
+.form_section .input_field::placeholder{
+    color: white;
+}
+.form_section .input_field:focus{
+    outline: none;
+    background-color: #1b1a1f;
+    color: #ffffff;
+}
+.form_heading , .from_subtitle{
+    color: white;
+    text-align: start;
+}
+.from_subtitle span{
+    color: #df5598;
+    font-weight: bold;
+}
+.remember_passbox label{
+    color: white;
+    margin-left: 20px;
+    user-select: none;
+}
+.svg_image{
+    width: 100%;
+}
+.form_error{
+    border : 1px solid #df5598;
+    border-radius: 10px;
+    padding: 14px 20px;
+    color: white;
+    margin-bottom: 7px;
+}
+@media screen and (max-width : 992px){
+    .svg_image{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .triangle{
+        top: auto;
+        bottom: 160px;
+    }
+    .square{
+        top: -10%;
+        right: 50px;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .currency_box{
+        margin-right: 15%;
+        margin-top: 70px;
+    }
+    .form_section{
+        margin-bottom: 50px;
+    }
+}
